@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHPX</title>
+
+  
+    <!-- Fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Favicon-->
+ 
+    <link rel="icon" href="./assets/images/icons/favicon.ico" type="image/x-icon" />
+    <!--Bootstrap Style Sheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/library/bootstrap.min.css"
+    />
+    <!-- Slick Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/library/slick.css" />
+    <!--Style Sheet -->
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("3RXPufPQaJVHzf_gf");
+   })();
+</script>
+
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+          <a class="logo" href="index.html"
+            ><img src="./assets/images/icons/logo.svg" alt="img project-shpx"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><img src="./assets/images/icons/hamburger.svg" alt="img project-shpx" /></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#all-tab">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            <div class="container-buttons">
+              <button
+              type="button"
+              class="btn"
+            >          
+              <a class="nav-link navbar" href="./login.html">Login</a>
+            </button>
+            <button
+            type="button"
+            class="btn"
+          >          
+            <a class="nav-link navbar" href="./register.html">Register</a>
+          </button>
+             
+                 <img  class="navbar" src="./assets/images/icons/search.svg" alt="img project-shpx">
+                <img class="shopping-cart navbar" src="./assets/images/icons/shoppingcart-icon.svg" />
+          
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Landing Page -->
+    <section class="main-banner">
+  
+      <div class="container">
+                <div class=" container position-absolute animation-1">
+          <lottie-player src="https://lottie.host/b3b9dd01-8da3-408d-bf97-301eb5efd93c/fmsV6COvHR.json" background="transparent" speed="1" style="width: auto; height: auto;" loop="" autoplay=""></lottie-player>
+        </div>
+        <article class="main-banner-parent">
+          <figure>
+            <div class="bg-block"></div>
+            <img class="img-fluid" src="./assets/images/banner.jpg" alt="img project-shpx" />
+          </figure>
+          <div class="caption">
+            <h1>Modern Interior for your Dream House</h1>
+            <p>We custom make design to suits your needs.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Product section -->
+
+    <section id="all-tab" class="products">
+      <div class="container">
+        <h2>Products</h2>
+        <div class="dropdown">
+          <button
+            class="btn dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            All
+          </button>
+          <ul class="dropdown-menu">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="all-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#all-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="all-tab-pane"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="lamp-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#lamp-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="lamp-tab-pane"
+                  aria-selected="false"
+                >
+                  Lamp
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="chair-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#chair-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="chair-tab-pane"
+                  aria-selected="false"
+                >
+                  Chair
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="table-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#table-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="table-tab-pane"
+                  aria-selected="false"
+                >
+                  Table
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="sofa-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#sofa-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="sofa-tab-pane"
+                  aria-selected="false"
+                >
+                  Sofa
+                </button>
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="all-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#all-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="all-tab-pane"
+              aria-selected="true"
+            >
+              All
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="lamp-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#lamp-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="lamp-tab-pane"
+              aria-selected="false"
+            >
+              Lamp
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="chair-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#chair-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="chair-tab-pane"
+              aria-selected="false"
+            >
+              Chair
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="table-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#table-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="table-tab-pane"
+              aria-selected="false"
+            >
+              Table
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="sofa-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#sofa-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="sofa-tab-pane"
+              aria-selected="false"
+            >
+              Sofa
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="all-tab-pane"
+            role="tabpanel"
+            aria-labelledby="all-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-md-4">
+                <article>
+                  <h3>Chaise </h3>
+                  <p>$18.00</p>
+                  <figure>
+                    <img src="./assets/images/product-1.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <h3>Chaise </h3>
+                  <p>$18.00</p>
+                  <figure>
+                    <img src="./assets/images/product-2.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <h3>Lamp</h3>
+                  <p>$18.00</p>
+                  <figure>
+                    <img src="./assets/images/product-3.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <h3>Chaise </h3>
+                  <p>$18.00</p>
+                  <figure>
+                    <img src="./assets/images/product-4.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <h3>Table</h3>
+                  <p>$48.00</p>
+                  <figure>
+                    <img src="./assets/images/product-5.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <h3>Sofa</h3>
+                  <p>$78.00</p>
+                  <figure>
+                    <img src="./assets/images/product-6.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="lamp-tab-pane"
+            role="tabpanel"
+            aria-labelledby="lamp-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-md-4">
+                <article>
+                  <h3>Lamp</h3>
+                  <p>$18.00</p>
+                  <figure>
+                    <img src="./assets/images/product-3.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="chair-tab-pane"
+            role="tabpanel"
+            aria-labelledby="chair-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-md-4">
+                <article>
+                  <h3>Chaise </h3>
+                  <p>$18.00</p>
+                  <figure>
+                    <img src="./assets/images/product-1.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <h3>Chaise </h3>
+                  <p>$18.00</p>
+                  <figure>
+                    <img src="./assets/images/product-2.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <h3>Chaise </h3>
+                  <p>$18.00</p>
+                  <figure>
+                    <img src="./assets/images/product-4.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="table-tab-pane"
+            role="tabpanel"
+            aria-labelledby="table-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-md-4">
+                <article>
+                  <h3>Table</h3>
+                  <p>$48.00</p>
+                  <figure>
+                    <img src="./assets/images/product-5.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="sofa-tab-pane"
+            role="tabpanel"
+            aria-labelledby="sofa-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-md-4">
+                <article>
+                  <h3>Sofa</h3>
+                  <p>$78.00</p>
+                  <figure>
+                    <img src="./assets/images/product-6.png" alt="img project-shpx" />
+                  </figure>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class=" container position-absolute animation-1">
+          <lottie-player src="https://lottie.host/b3b9dd01-8da3-408d-bf97-301eb5efd93c/fmsV6COvHR.json" background="transparent" speed="1" style="width: auto; height: auto;" loop="" autoplay=""></lottie-player>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="products-slider">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="product-slider-parent">
+              <div class="rectangle"></div>
+              <div class="custom-slider">
+                <div>
+                  <img src="./assets/images/slider-image.jpg" alt="img project-shpx" />
+                </div>
+                <div>
+                  <img src="./assets/images/slider2.jpg" alt="img project-shpx" />
+                </div>
+                <div>
+                  <img src="./assets/images/slider3.jpg" alt="img project-shpx" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="caption-2">
+              <h2>Showcase</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A,
+                eleifend viverra nam libero tellus. Luctus ornare ac, dolor
+                tempor pellentesque nec.
+              </p>
+              <button class="prev-slide">
+                <img src="./assets/images/icons/Arrow-1.svg" alt="img project-shpx" />
+              </button>
+              <button class="next-slide">
+                <img src="./assets/images/icons/Arrow-1.svg" alt="img project-shpx" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <section class="footer-section">
+  
+        <div class="container">     
+          <div class="footer-text">
+            <h2>Get your quotation today</h2>
+            <button class="btn btn-1">Quote me</button>
+            <button class="btn btn-2">Contact Sales</button>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Modal -->
+ 
+    <section id="Contact" class="contact-us">
+      <div class="container">
+        <div class="contact-text "  class="container">
+          <h2>Let’s discuss your Project</h2>
+  
+          <div class="clearfix">
+            <div class="info">
+              <p>
+                There are many variations of passages of Lorem Ipsu available. but
+                the majority have suffered alte.
+              </p>
+              <ul class="contact-list">
+                <li>
+                  <img src="./assets/images/icons/location4.png" alt="img project-shpx" />
+                  Address:<br />
+                  New Mexico 31134
+                </li>
+                <li>
+                  <img src="./assets/images/icons/location5.png" alt="img project-shpx" />My
+                  Email: <br />mymail@mail.com
+                </li>
+                <li>
+                  <img src="./assets/images/icons/location6.png" alt="img project-shpx" />
+                  <a href="tel:+18001231234">Call Me Now: <br />00-1234 00000</a>
+                </li>
+      
+              </ul>
+      
+              <ul class="icon-list">
+      
+                <li>
+                 <img src="./assets/images/icons/face.png" alt="img project-shpx">
+                </li>
+                <li><img src="./assets/images/icons/card.png" alt="img project-shpx" /></li>
+                <li><img src="./assets/images/icons/be.png" alt="img project-shpx" /></li>
+                <li><img src="./assets/images/icons/imgs.png" alt="img project-shpx" /></i></li>
+                <li><img src="./assets/images/icons/in.png" alt="img project-shpx" /></li>
+              </ul>
+      
+            </div>
+      
+            <div class="contact-form">
+              <p >
+                There are many variations of passages of Lorem Ipsu available, but
+                the majority have suffered alte.
+              </p>
+              <form 
+               >
+                <p>
+                  <input type="text" id="name" name="name" placeholder="Name" required />
+                </p>
+                <p>
+                  <input type="email" id="email" name="email" placeholder="Email" required  />
+                </p>
+      
+                <p>
+                  <input type="text"   id="location" name="location" placeholder="Location"  required />
+                </p>
+                <div class="id-input">
+                  <p><input  type="text" id="budget" name="budget" placeholder="Budget" required />  </p> <p><input  type="text" id="subject" name="subject" placeholder="Subject" required /></p>
+                </div>
+      
+               
+                <p>
+                  <textarea id="message" name="message" placeholder="Message" cols="30" rows="10" required></textarea>
+                </p>
+                <p class="submit-btn">
+                  <button type="button" onclick='sendMail()' id="btn">
+                    submit
+                    <img src="./assets/images/icons/User Interface/Vector.png" alt="img project-shpx" />
+                  </button>
+                </p>
+              </form>
+            </div>
+         
+        </div>
+ </div>
+      </div>
+     
+    </section>
+
+    <!-- Jquery -->
+    <script src="./assets/library/jquery.min.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script src="./assets/library/bootstrap.bundle.min.js"></script>
+    <!-- Slick Scripts -->
+    <script src="./assets/library/slick.min.js"></script>
+    <script src="./assets/library/lottie-player.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <!-- Scripts -->
+    
+  </body>
+</html>

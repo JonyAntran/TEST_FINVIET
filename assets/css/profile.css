@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', 'sans-serif';
+  background: rgb(168, 162, 162);
+}
+
+.user-profile {
+  background-color: #ffff;
+  margin-top: 5%;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4)0px 30px 90px;
+  align-items: center;
+}
+
+.profile-top {
+  color: #ffff;
+  padding: 1rem;
+  text-align: center;
+  border: 5px;
+  align-items: center;
+  background: linear-gradient(to right, rgb(62, 99, 179), rgb(31, 33, 165));
+}
+
+.profile-top img {
+  border-radius: 50%;
+  border: 5px solid #ffff;
+  align-items: center;
+
+}
+
+.profile-top .profile-info {
+  margin-top: 1rem;
+}
+
+.profile-bottom {
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.profile-bottom .profile-info {
+  background-color: rgb(218, 210, 210);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.profile-bottom .profile-info .material-icons {
+  margin-right: 0.5rerm;
+  color: gray;
+
+}
+
+button {
+  margin-top: 2rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.5% ease;
+  color: rgb(10, 11, 12);
+  font-weight: 400;
+  font-family: 'Montserrat', 'sans-serif';
+
+}
+
+button:hover {
+  color: #ffff;
+
+  font-family: 'Montserrat', 'sans-serif';
+  background: linear-gradient(to right, rgb(62, 99, 179), rgb(31, 33, 165));
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>profile</title>
+    <link rel="stylesheet" href="./assets/css/profile.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="user-profile">
+      <div class="profile-top">
+        <img id="imge" src="" alt="" />
+        <div class="profile-info">
+          <span id="name">Name</span>
+          <span>|</span>
+          <span id="gender">Gender</span>
+        </div>
+      </div>
+
+      <div class="profile-bottom">
+        <div class="profile-info">
+          <span class="material-icons"> email </span>
+          <span id="email">Email</span>
+        </div>
+
+        <div class="profile-info">
+          <span class="material-icons"> call </span>
+
+          <span id="phone">Phone</span>
+        </div>
+
+        <div class="profile-info">
+          <span class="material-icons"> location_on </span>
+          <span id="location">Country</span>
+        </div>
+      </div>
+    </div>
+
+    <button onclick="getRandomUser();">User name</button>
+    <script src="./assets/js/profile.js"></script>
+  </body>
+</html>

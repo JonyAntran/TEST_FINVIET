@@ -1,0 +1,13 @@
+Bài thi đánh giá năng lực phần 1
+
+1.	Thiết kế giao diện website dựa trên design (link) có sẵn dựa trên các yêu cầu sau đây:
+a.	Kích thước hình ảnh, font chữ, lề, phải chuẩn kích thước của design.
+b.	Responsive đầy đủ trên các thiết bị thông minh.
+c.	Thêm hiệu ứng cho website thêm phần sinh động.
+d.	Mục Products filter phù hợp với title
+e.	Mục Contact client có thể gửi thông tin liên lạc qua bộ phận chăm sóc khách hàng qua email (win17061997@gmail.com)
+f.	Trên header yêu cầu mục khi client click vào “Home” thì sẽ trở về trang chủ (index.html) và cuộn trang lên trên cùng, cùng yêu cầu với “Product” và “Contact” cuộn trang đúng vị trí ở trang chủ.
+g.	Trên header đối với mục About (about.html). Yêu cầu thí sinh tự design về phần giới thiệu bản thân. Có thể tham khảo các portfolio trên dribble, behance, themeforest ,…
+h.	Bổ sung button login/register trên header. Đối với trang register.html phải có validate các field như username/password. Sau khi client nhập đầy đủ field require click submit về trang login.html.
+i.	Đối với trang login.html phải bắt buộc client nhập username/password sau khi client nhập đầy đủ field require click submit về trang profile.html (yêu cầu ở trang profile show đầy đủ thông tin user một cách chi tiết nhất) api  get thông tin user =>>> https://randomuser.me/api/
+
